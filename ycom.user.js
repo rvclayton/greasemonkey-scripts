@@ -7,18 +7,12 @@
 // ==/UserScript==
 
 $('.subtext').remove()
-$('a:contains("startup")').parent().parent().remove()
-$('a:contains("Startup")').parent().parent().remove()
-$('a:contains("founder")').parent().parent().remove()
-$('a:contains("Founder")').parent().parent().remove()
-$('a:contains("entrepren")').parent().parent().remove()
-$('a:contains("Entrepren")').parent().parent().remove()
-$('a:contains("Review my")').parent().parent().remove()
-$('a:contains("Y Combinator")').parent().parent().remove()
-$('a:contains("Show HN")').parent().parent().remove()
-$('a:contains("Ask HN")').parent().parent().remove()
-$('a:contains("Tell HN")').parent().parent().remove()
-$('a:contains("YC ")').parent().parent().remove()
+
+$.each(
+  [ 'startup', 'Startup', 'founder', 'Founder', 'entrepren', 'Entrepren', 
+    'Review my', 'Y Combinator', 'Show HN', 'Ask HN', 'Tell HN', 'YC '],
+  function(_, v) { $('a:contains("' + v + '")').parent().parent().remove() }
+  )
 
 // $Log: ycom.user.js,v $
 // Revision 1.6  2011/08/01 19:56:13  rclayton
