@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name	vv
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
-// @description Match and delete elements with particular ids or classes.
+// @description Match hosts and delete elements with particular ids or classes.
 // @include     http://wiki.answers.com/*
 // @include     http://www.americanelf.com/*
 // @include     HTTP://arstechnica.com/*
@@ -14,6 +14,7 @@
 // @include	http://eroticaleedaily.blogspot.com/*
 // @include	http://www.esquire.com/*
 // @include     HTTP://*firedoglake.com/*
+// @include     http://www.firstthings.com/blogs/drboli/*
 // @include	HTTP://www.flickr.com/*
 // @include     HTTP://freshmeat.net/*
 // @include	http://www.gocomics.com/*
@@ -80,6 +81,8 @@
     , "firedoglake": [ 
         '.header', '.rightColWrapper', '#topNavLinks' , '.clearing',
         '#wp-admin-bar' ]
+
+    , "firstthings": [ '#siteHeading', '#masterNav' ]
 
     , "flickr": [ '#TopBar', '#head', 'noscript', '#nav' ]
 
