@@ -154,7 +154,8 @@
     , "wonkette": [ 
         '#topmenuContainer', '#header', '#idc-noscript' , '#sidebars',
         '#post-supplement', '.headline_meta', '#footer', '#sharethis_0',
-        '#idc-container-parent', '#view_counter' ]
+        '#idc-container-parent', '#view_counter', '#topLeaderboard', 
+        '.OUTBRAIN' ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
