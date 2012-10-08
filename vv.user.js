@@ -55,7 +55,8 @@
     , "answers.com": [ '#left-column', '#header', '#headerSection2' ]
 
     , "arstech": [ 
-        'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories' ]
+        'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
+        'header', 'nav' ]
 
     , "betterbooktitles": [ 'table.container td:first' ]
 
