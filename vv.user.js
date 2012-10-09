@@ -127,7 +127,7 @@
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
     , "ritholtz": [ 
-        '.top_ad', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
+        '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
         '#sidebar' ]
 
     , "smbc": [ 'table:eq(1) td:first' ]
