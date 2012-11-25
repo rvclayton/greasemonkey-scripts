@@ -28,7 +28,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     http://prospect.org/blog/*
-// @include     HTTP://www.reddit.com/r/programming/*
+// @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -122,7 +122,10 @@
 
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
-    , "reddit": [ 'div.side', 'div.header', 'p.tagline' ]
+    , "reddit": [ 
+        'div.side', 'div.header', 'p.tagline', '.infobar', '.flat-list',
+        '.rank', '.midcol'
+        ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
