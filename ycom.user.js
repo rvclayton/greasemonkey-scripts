@@ -6,7 +6,9 @@
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
-$('.subtext').remove()
+$.each(
+  [ 'subtext', 'comhead' ], 
+  function(_, v) { $('.' + v).remove() })
 
 $.each(
   [ 'startup', 'Startup', 'founder', 'Founder', 'entrepren', 'Entrepren', 
