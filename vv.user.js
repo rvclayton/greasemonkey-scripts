@@ -7,6 +7,7 @@
 // @include     HTTP://arstechnica.com/*
 // @include     http://betterbooktitles.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
+// @include     HTTP://c.urvy.org/*
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
@@ -145,6 +146,8 @@
     , "thisisnthappiness": [  ]
 
     , "tinypic": [ '.header-container', '.member-container', '.content-sec' ]
+
+    , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
 
     , "villagevoice":
         [ '.leaderboard', '.sitenav', '#blog_header', '#top_stories_container',
