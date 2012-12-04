@@ -124,8 +124,8 @@
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
     , "reddit": [ 
-        'div.side', 'div.header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol'
+        'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
+        '.rank', '.midcol', '#siteTable_promoted', '.expando-button'
         ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
