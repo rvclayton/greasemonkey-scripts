@@ -125,8 +125,7 @@
 
     , "reddit": [ 
         'div.side', 'div.header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol'
-        ]
+        '.rank', '.midcol', '#siteTable_promoted' ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
