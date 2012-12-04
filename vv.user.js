@@ -7,6 +7,7 @@
 // @include     HTTP://arstechnica.com/*
 // @include     http://betterbooktitles.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
+// @include     HTTP://c.urvy.org/*
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
@@ -28,7 +29,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     http://prospect.org/blog/*
-// @include     HTTP://www.reddit.com/r/programming/*
+// @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -122,7 +123,10 @@
 
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
-    , "reddit": [ 'div.side', 'div.header', 'p.tagline' ]
+    , "reddit": [ 
+        'div.side', 'div.header', 'p.tagline', '.infobar', '.flat-list',
+        '.rank', '.midcol'
+        ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
@@ -142,6 +146,8 @@
     , "thisisnthappiness": [  ]
 
     , "tinypic": [ '.header-container', '.member-container', '.content-sec' ]
+
+    , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
 
     , "villagevoice":
         [ '.leaderboard', '.sitenav', '#blog_header', '#top_stories_container',
