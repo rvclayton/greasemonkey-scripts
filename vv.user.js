@@ -124,8 +124,9 @@
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
     , "reddit": [ 
-        'div.side', 'div.header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol', '#siteTable_promoted' ]
+        'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
+        '.rank', '.midcol', '#siteTable_promoted', '.expando-button'
+        ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
@@ -161,7 +162,8 @@
         '#topmenuContainer', '#header', '#idc-noscript' , '#sidebars',
         '#post-supplement', '.headline_meta', '#footer', '#sharethis_0',
         '#idc-container-parent', '#view_counter', '#topLeaderboard', 
-        '.OUTBRAIN' ]
+        '.OUTBRAIN', '#IDCommentPopup', '#IDCommentsHead', '#idc-cover',
+        '#idc-container-parent' ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
