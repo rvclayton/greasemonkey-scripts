@@ -29,6 +29,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     http://prospect.org/blog/*
+// @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.sylvanmigdal.com/*
@@ -122,6 +123,11 @@
         '#crosscol-wrapper', '#header-wrapper', '.post-footer' ]
 
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
+
+    , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#main-wrap', 
+        '#headline-wrap', '#money-wrap', '#nav-wrap', '#access-wrap', '#mast', 
+        '#lg-ad', '#footer-disclaimer', '#btm-ads', '#footer-promo-wrap'
+        ]
 
     , "reddit": [ 
         'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
