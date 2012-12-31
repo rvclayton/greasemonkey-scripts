@@ -43,6 +43,7 @@
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youjizz.com/*
+// @include     http://www.youtube.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
@@ -178,6 +179,8 @@
     , "youjizz": [ 
         '#login', '#top', '#sub', '#fotter', '#fotter2', 'div#main td:eq(1)' 
         ]
+
+    , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
     }
 	
   for (var key in ids)
