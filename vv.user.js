@@ -19,6 +19,7 @@
 // @include	HTTP://www.flickr.com/*
 // @include     HTTP://freshmeat.net/*
 // @include	http://www.gocomics.com/*
+// @include	http://www.google.com/*
 // @include	http://gramponante.com/*
 // @include	http://infoworld.com/*
 // @include	http://www.javaworld.com/*
@@ -94,6 +95,8 @@
         '#topnav', '#leaderboard', '#mashup', '#footer', '.banner-imu']
 
     , "gocom": [ '#header' ]
+
+    , "google": [ '#gb', '#tads' ]
 
     , "gramponante": [ 
         '#nav1-container', '#nav2-container', '#header-container',
