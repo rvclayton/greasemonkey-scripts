@@ -41,6 +41,7 @@
 // @include     http://tinypic.com/*
 // @include     http://www.xkcd.com/*
 // @include     http://www.washingtonmonthly.com/*
+// @include     http://www.washingtonpost.com/*
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youjizz.com/*
@@ -167,6 +168,9 @@
 
     , "washingtonmonthly": [ 
         '#featured', '#sidebar', '#ads', '#sidebar-content' ]
+
+    , "washingtonpost": [ 
+        '.ad-top', '.ads', '#blog-tag-search-subnav', '#header-v3' ]
 
     , "wonkette": [ 
         '#topmenuContainer', '#header', '#idc-noscript' , '#sidebars',
