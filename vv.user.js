@@ -131,7 +131,7 @@
 
     , "reddit": [ 
         'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol', '#siteTable_promoted', '.expando-button'
+        '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain'
         ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
