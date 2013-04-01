@@ -15,11 +15,7 @@
   $('#byline').remove()
   $('.tabs-outer').remove()
   $('.fauxcolumn-left-outer').remove()
+  $('.post-footer').remove()
   $('#navbar').remove()
   $('body').children('table:eq(1)').remove()
   })()
-
-// $Log: eschatontrim.user.js,v $
-// Revision 1.1  2010/09/21 03:24:52  rclayton
-// Initial revision
-//

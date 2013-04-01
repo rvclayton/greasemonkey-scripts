@@ -5,6 +5,7 @@
 // @include     http://wiki.answers.com/*
 // @include     http://www.americanelf.com/*
 // @include     HTTP://arstechnica.com/*
+// @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
@@ -19,6 +20,7 @@
 // @include	HTTP://www.flickr.com/*
 // @include     HTTP://freshmeat.net/*
 // @include	http://www.gocomics.com/*
+// @include	http://www.google.com/*
 // @include	http://gramponante.com/*
 // @include	http://infoworld.com/*
 // @include	http://www.javaworld.com/*
@@ -32,17 +34,19 @@
 // @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
+// @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
-// @include     http://www.smbc-comics.com/*
-// @include     HTTP://www.theawl.com/*
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
+// @include     http://2paragraphs.com/*
 // @include     http://www.xkcd.com/*
 // @include     http://www.washingtonmonthly.com/*
+// @include     http://www.washingtonpost.com/*
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youjizz.com/*
+// @include     http://www.youtube.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
@@ -59,6 +63,11 @@
     , "arstech": [ 
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
         'header', 'nav' ]
+
+    , "theawl": 
+        [ '.comment-meta', '#header', '#ad1', '#sidebar', '.social-media',
+          '.facebook-recommend', '#ad4', 'h3.date', '.outbrain-related',
+          '#comment-sort', '.tags', '#comments', '.network-header' ]
 
     , "betterbooktitles": [ 'table.container td:first' ]
 
@@ -93,6 +102,8 @@
         '#topnav', '#leaderboard', '#mashup', '#footer', '.banner-imu']
 
     , "gocom": [ '#header' ]
+
+    , "google": [ '#gb', '#tads' ]
 
     , "gramponante": [ 
         '#nav1-container', '#nav2-container', '#header-container',
@@ -144,14 +155,13 @@
 
     , "sylvanmigdal": [ '#theLeaderboard', '#thePWBannerAd' ]
 
-    , "theawl": 
-        [ '.comment-meta', '#header', '#ad1', '#sidebar', '.social-media',
-          '.facebook-recommend', '#ad4', 'h3.date', '.outbrain-related',
-          '#comment-sort', '.tags', '#comments', '.network-header' ]
-
     , "thisisnthappiness": [  ]
 
     , "tinypic": [ '.header-container', '.member-container', '.content-sec' ]
+
+    , "2parag": [
+        '#category_nav_area', '#sub_nav_area', '.post_sharing', 
+        '.recent_posts_category' ]
 
     , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
 
@@ -163,6 +173,9 @@
 
     , "washingtonmonthly": [ 
         '#featured', '#sidebar', '#ads', '#sidebar-content' ]
+
+    , "washingtonpost": [ 
+        '.ad-top', '.ads', '#blog-tag-search-subnav', '#header-v3' ]
 
     , "wonkette": [ 
         '#topmenuContainer', '#header', '#idc-noscript' , '#sidebars',
@@ -178,6 +191,8 @@
     , "youjizz": [ 
         '#login', '#top', '#sub', '#fotter', '#fotter2', 'div#main td:eq(1)' 
         ]
+
+    , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
     }
 	
   for (var key in ids)
