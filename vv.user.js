@@ -2,8 +2,6 @@
 // @name	vv
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
 // @description Match hosts and delete elements with particular ids or classes.
-// @include     http://wiki.answers.com/*
-// @include     http://www.americanelf.com/*
 // @include     HTTP://arstechnica.com/*
 // @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
@@ -56,9 +54,7 @@
   // all elements matching the selectors are removed().
 
   var ids = {
-      "americanelf": [ 'table:first', '.frequency' ]
-
-    , "answers.com": [ '#left-column', '#header', '#headerSection2' ]
+      "answers.com": [ '#left-column', '#header', '#headerSection2' ]
 
     , "arstech": [ 
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
@@ -204,78 +200,3 @@
   GM_log('No ids found for matched page ' + location.host)
 
   })()
-
-
-// $Log: vv.user.js,v $
-// Revision 1.24  2012/05/11 01:03:53  rclayton
-// delete more awl.
-//
-// Revision 1.23  2012/04/09 23:38:13  rclayton
-// delete more stuff from awl pages.
-//
-// Revision 1.22  2011/10/13 01:38:42  rclayton
-// trim nakedcapitalism.
-//
-// Revision 1.21  2011/10/01 14:13:45  rclayton
-// add gram p
-//
-// Revision 1.20  2011/09/30 23:41:52  rclayton
-// scrub esquire blogs.
-//
-// Revision 1.19  2011/09/08 19:03:12  rclayton
-// replace for over lists with $.each().
-//
-// Revision 1.18  2011/07/11 16:52:58  rclayton
-// trim mailinator pages
-//
-// Revision 1.17  2011/07/03 13:10:30  rclayton
-// added freshmeat from trimpages.
-//
-// Revision 1.16  2011/04/28 23:14:51  rclayton
-// trim what would tyler durden do?
-//
-// Revision 1.15  2011/03/26 00:03:07  rclayton
-// Change the lunch studio url, delete some more cruft.
-//
-// Revision 1.14  2011/03/24 14:55:32  rclayton
-// trim the big picture.
-//
-// Revision 1.13  2011/03/15 04:50:13  rclayton
-// Clean up new lunchstudio format, clean up more wonkette.
-//
-// Revision 1.12  2011/03/10 16:14:17  rclayton
-// Trim infoworld.
-//
-// Revision 1.11  2010/12/12 15:18:59  rclayton
-// Trim more delong; trim sylvanmigdal.
-//
-// Revision 1.10  2010/11/09 02:23:18  rclayton
-// Generalize tbogg to firedoglake; remove more cruft.
-//
-// Revision 1.9  2010/10/31 23:09:10  rclayton
-// Clean up tinypic pages.
-//
-// Revision 1.8  2010/10/31 01:14:45  rclayton
-// Trim drawn pages.
-//
-// Revision 1.7  2010/10/26 18:47:45  rclayton
-// Trim answers.com pages.
-//
-// Revision 1.6  2010/10/26 18:45:17  rclayton
-// Delete wonkette sidebars.
-//
-// Revision 1.5  2010/10/21 01:04:11  rclayton
-// Drop more cruft from awl pages.
-//
-// Revision 1.4  2010/10/03 13:52:08  rclayton
-// drop microsoft and gamer items in ars tech.
-//
-// Revision 1.3  2010/09/23 23:44:23  rclayton
-// Get rid of awl headlines too
-//
-// Revision 1.2  2010/09/13 22:11:01  rclayton
-// added diesel sweeties.
-//
-// Revision 1.1  2010/08/27 23:42:01  rclayton
-// Initial revision
-//
