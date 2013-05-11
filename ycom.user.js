@@ -7,8 +7,12 @@
 // ==/UserScript==
 
 $.each(
-  [ 'subtext', 'comhead' ], 
+  [ 'subtext' ], 
   function(_, v) { $('td.' + v).remove() })
+
+$.each(
+  [ 'comhead' ], 
+  function(_, v) { $('span.' + v).remove() })
 
 $.each(
   [ 'startup', 'Startup', 'founder', 'Founder', 'entrepren', 'Entrepren', 
