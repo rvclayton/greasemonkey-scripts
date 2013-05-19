@@ -28,6 +28,7 @@
 // @include     HTTP://www.mailinator.com/*
 // @include     http://www.nakedcapitalism.com/*
 // @include     HTTP://*blogs.nytimes.com/*
+// @include     http://www.planetscala.com/*
 // @include     http://prospect.org/blog/*
 // @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
@@ -140,6 +141,8 @@
         'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
         '.rank', '.midcol', '#siteTable_promoted', '.expando-button'
         ]
+
+    , "planetscala": [ '.sidebar' ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
