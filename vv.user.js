@@ -29,6 +29,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     http://www.planetscala.com/*
+// @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
 // @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
@@ -143,6 +144,8 @@
         ]
 
     , "planetscala": [ '.sidebar' ]
+
+    , "planet.haskell": [ '.sidebar' ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
