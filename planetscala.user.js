@@ -4,6 +4,7 @@
 // @description Set the right margin to zero width.
 // @include	http://www.planetscala.com/*
 // @include	http://planet.haskell.org/*
+// @include	http://www.scheme.dk/planet/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 

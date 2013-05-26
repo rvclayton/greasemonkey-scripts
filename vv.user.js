@@ -27,6 +27,7 @@
 // @include	http://www.lunchstudio.com/*
 // @include     HTTP://www.mailinator.com/*
 // @include     http://www.nakedcapitalism.com/*
+// @include     http://theness.com/neurologicablog/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
@@ -34,6 +35,7 @@
 // @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
+// @include     http://www.scheme.dk/planet/*
 // @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -131,6 +133,8 @@
     , "nakedcapitalism": [ 
         '#crosscol-wrapper', '#header-wrapper', '.post-footer' ]
 
+    , "theness": [ '#sidebar1', '#sidebar2' ]
+
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
     , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#main-wrap', 
@@ -152,6 +156,8 @@
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
         '#sidebar' ]
+
+    , "scheme": [ '.sidebar' ]
 
     , "smbc": [ 'table:eq(1) td:first' ]
 
