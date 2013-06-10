@@ -7,6 +7,7 @@
 // @include     http://betterbooktitles.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
+// @include	http://danadearmond.tumblr.com/*
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
@@ -36,6 +37,7 @@
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
+// @include     http://www.sciencebasedmedicine.org/index.php/*
 // @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -76,6 +78,8 @@
         '.STR_Date', '.ui_datepicker-trigger' ]
 
     , "discoverm": [ '#mainBanner', '#header' ]
+
+    , "danadearmond": [ '#sidebar' ]
 
     , "delong": [ '#banner', '#nav', '#footer', '#beta', '#gamma' ]
 
@@ -158,6 +162,8 @@
         '#sidebar' ]
 
     , "scheme": [ '.sidebar' ]
+
+    , "sciencebasedmedicine": [ '#sidebar1', '#sidebar2' ]
 
     , "smbc": [ 'table:eq(1) td:first' ]
 
