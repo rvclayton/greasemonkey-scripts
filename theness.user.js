@@ -3,6 +3,7 @@
 // @namespace	file:///mnt/projects/greasemonkey-scripts
 // @description Get rid of the width declarations for neurologica pages.
 // @include	http://theness.com/neurologicablog/*
+// @include	http://www.sciencebasedmedicine.org/index.php/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
