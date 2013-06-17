@@ -8,7 +8,7 @@
 
 $.each(
   [ "splitsider", "The Poetry Section", "Hooped Up", "Overheated",
-    "The 90-Second Morning Blast" ], 
+    "The 90-Second Morning Blast", "SPONSORED POST" ], 
   function (_, v) { $('a:contains("' + v + '")').parent().parent().remove() }
   )
 
@@ -16,11 +16,3 @@ $.each(
   [ "#nfooter", "#comment-reply" ], 
   function (_, v) { $(v).remove() }
   )
-
-// $Log: awl.user.js,v $
-// Revision 1.2  2011/09/08 19:57:24  rclayton
-// replace for over list with $.each().
-//
-// Revision 1.1  2011/03/18 02:26:14  rclayton
-// Initial revision
-//
