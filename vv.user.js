@@ -112,7 +112,7 @@
     , "gramponante": [ 
         '#nav1-container', '#nav2-container', '#header-container',
         '#sb-container', '.tweetthis', '#subscribe', '#author-info',
-        '.post-meta' ]
+        '.post-meta', '#sb2', '#copyright', '#footer-container', '#respond' ]
 
     , "infoworld": [ 
         '#block-infoworld-infoworld_header_domains', '#ad_ticker', '#rightcol',
