@@ -7,6 +7,7 @@
 // @include     http://betterbooktitles.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
+// @include	http://danadearmond.tumblr.com/*
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
@@ -27,11 +28,16 @@
 // @include	http://www.lunchstudio.com/*
 // @include     HTTP://www.mailinator.com/*
 // @include     http://www.nakedcapitalism.com/*
+// @include     http://theness.com/neurologicablog/*
 // @include     HTTP://*blogs.nytimes.com/*
+// @include     http://www.planetscala.com/*
+// @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
 // @include     http://www.ramblinwreck.com/
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
+// @include     http://www.scheme.dk/planet/*
+// @include     http://www.sciencebasedmedicine.org/index.php/*
 // @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -72,6 +78,8 @@
         '.STR_Date', '.ui_datepicker-trigger' ]
 
     , "discoverm": [ '#mainBanner', '#header' ]
+
+    , "danadearmond": [ '#sidebar' ]
 
     , "delong": [ '#banner', '#nav', '#footer', '#beta', '#gamma' ]
 
@@ -129,6 +137,8 @@
     , "nakedcapitalism": [ 
         '#crosscol-wrapper', '#header-wrapper', '.post-footer' ]
 
+    , "theness": [ '#sidebar1', '#sidebar2' ]
+
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
     , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#main-wrap', 
@@ -141,11 +151,19 @@
         '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain'
         ]
 
+    , "planetscala": [ '.sidebar' ]
+
+    , "planet.haskell": [ '.sidebar' ]
+
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
         '#sidebar' ]
+
+    , "scheme": [ '.sidebar' ]
+
+    , "sciencebasedmedicine": [ '#sidebar1', '#sidebar2' ]
 
     , "smbc": [ 'table:eq(1) td:first' ]
 
