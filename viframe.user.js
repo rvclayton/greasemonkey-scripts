@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name	munge video iframes.
+// @name	viframe
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
 // @description Replace video iframes with a link to the video.
 // @include	http://*
@@ -16,7 +16,11 @@
       }
     ).each(
     function () {
-      var a = '<a href="' + this.src + '">' + this.src + '</a>'
+      var url = this.src
+      var i = url.indexOf('?')
+      if (i > -1)
+	url = url.slice(0, i)
+      var a = '<a href="' + url + '">' + url + '</a>'
       $(this).after(jQuery('<p>Embedded video:  ' + a + '</p>'))
       }
     ).remove()
