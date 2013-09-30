@@ -10,11 +10,19 @@
 
   var re = new RegExp('(http:)?//(www.youtube|player.vimeo)')
 
-  jQuery('iframe').filter(
+  var iframes = jQuery('iframe')
+
+  // alert('# iframes = ' + iframes.length)
+
+  iframes = iframes.filter(
     function () {
       return re.test(this.src)
       }
-    ).each(
+    )
+
+  // alert('# filtered iframes = ' + iframes.length)
+
+  iframes.each(
     function () {
       var url = this.src
       var i = url.indexOf('?')
