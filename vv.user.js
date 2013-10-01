@@ -11,13 +11,11 @@
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
-// @include	http://blog.drawn.ca/*
+// @include	http://eatmorebikes.blogspot.com/*
 // @include	http://eroticaleedaily.blogspot.com/*
 // @include	http://www.esquire.com/*
 // @include     HTTP://*firedoglake.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
-// @include	HTTP://www.flickr.com/*
-// @include     HTTP://freshmeat.net/*
 // @include	http://www.gocomics.com/*
 // @include	http://www.google.com/*
 // @include	http://gramponante.com/*
@@ -49,7 +47,6 @@
 // @include     http://www.washingtonpost.com/*
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
-// @include     http://www.youjizz.com/*
 // @include     http://www.youtube.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
@@ -85,7 +82,7 @@
 
     , "diesels": [ '.scoop', 'body div table:first' ]
 
-    , "drawn": [ '#header' ]
+    , "eatmorebikes": [ '.cap-top' ]
 
     , "eroticalee": [ 
         '#navbar', '.body-fauxcolumns', '.content-cap-top', '.cap-top' ]
@@ -100,11 +97,6 @@
 
     , "firstthings": [ '#siteHeading', '#masterNav' ]
 
-    , "flickr": [ '#TopBar', '#head', 'noscript', '#nav' ]
-
-    , "freshmeat": [
-        '#topnav', '#leaderboard', '#mashup', '#footer', '.banner-imu']
-
     , "gocom": [ '#header' ]
 
     , "google": [ '#gb', '#tads' ]
@@ -112,7 +104,7 @@
     , "gramponante": [ 
         '#nav1-container', '#nav2-container', '#header-container',
         '#sb-container', '.tweetthis', '#subscribe', '#author-info',
-        '.post-meta' ]
+        '.post-meta', '#sb2', '#copyright', '#footer-container', '#respond' ]
 
     , "infoworld": [ 
         '#block-infoworld-infoworld_header_domains', '#ad_ticker', '#rightcol',
@@ -201,10 +193,6 @@
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
         '#menu_container', '.ad-misc' ]
-
-    , "youjizz": [ 
-        '#login', '#top', '#sub', '#fotter', '#fotter2', 'div#main td:eq(1)' 
-        ]
 
     , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
     }
