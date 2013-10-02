@@ -129,7 +129,7 @@
     , "nakedcapitalism": [ 
         '#crosscol-wrapper', '#header-wrapper', '.post-footer' ]
 
-    , "theness": [ '#sidebar1', '#sidebar2' ]
+    , "theness": [ '#header', '#sidebar1', '#sidebar2' ]
 
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
