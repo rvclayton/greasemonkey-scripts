@@ -8,7 +8,7 @@
 
 (function () {
 
-  var re = new RegExp('(http:)?//(www.youtube|player.vimeo)')
+  var re = new RegExp('(http:)?//(www.youtube|player.vimeo|instagram.com)')
 
   var iframes = jQuery('iframe')
 
