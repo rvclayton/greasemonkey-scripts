@@ -5,6 +5,7 @@
 // @include     HTTP://arstechnica.com/*
 // @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
+// @include     http://buttersafe.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
 // @include	http://danadearmond.tumblr.com/*
@@ -14,6 +15,7 @@
 // @include	http://eatmorebikes.blogspot.com/*
 // @include	http://eroticaleedaily.blogspot.com/*
 // @include	http://www.esquire.com/*
+// @include	http://www.ezrapoundcake.com/*
 // @include     HTTP://*firedoglake.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
 // @include	http://www.gocomics.com/*
@@ -70,6 +72,8 @@
 
     , "betterbooktitles": [ 'table.container td:first' ]
 
+    , "buttersafe": [ '#logoheader2', '#menubar' ]
+
     , "comics": [ 
         '.Header', '.SRCH_AdvancedOptions', '.SRCH_Options', '.SRCH_Logo',
         '.STR_Date', '.ui_datepicker-trigger' ]
@@ -90,6 +94,8 @@
     , "esquire": [ 
         '#ad_banner', '#blog_header_gen', '.article_nav', '#blog_branding',
         '#CNTR_blog_search', '#trending_links' ]
+
+    , "ezrapoundcake": [ '.header', '.nav' ]
 
     , "firedoglake": [ 
         '.header', '.rightColWrapper', '#topNavLinks' , '.clearing',
@@ -122,7 +128,7 @@
     , "lazybookreviews": [ '#header' ]
 
     , "lunchstudio": [ 
-        '#navbar', '#left-sidebar-wrapper', '#crosscol-wrapper' ]
+        '#left-sidebar-wrapper', '#header-wrapper', '.post-footer' ]
 
     , "mailinator": [ '.termsdiv', '#footer' ]
 
