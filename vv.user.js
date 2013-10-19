@@ -33,7 +33,7 @@
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
-// @include     http://www.ramblinwreck.com/
+// @include     http://www.ramblinwreck.com/*
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
@@ -139,9 +139,11 @@
 
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
-    , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#main-wrap', 
-        '#headline-wrap', '#money-wrap', '#nav-wrap', '#access-wrap', '#mast', 
-        '#lg-ad', '#footer-disclaimer', '#btm-ads', '#footer-promo-wrap'
+    , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#sticky-header',
+        '#main-wrap', '#headline-wrap', '#money-wrap', '#nav-wrap',
+        '#access-wrap', '#mast', '#lg-ad', '#footer-disclaimer', '#btm-ads', 
+        '#footer-promo-wrap', '#title-wrap', '#storyNav', '.tablecontent',
+        '.schedhist'
         ]
 
     , "reddit": [ 
