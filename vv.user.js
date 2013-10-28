@@ -40,6 +40,7 @@
 // @include     http://www.sciencebasedmedicine.org/index.php/*
 // @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
+// @include     http://www.testosteronepit.com/*
 // @include	HTTP://blogs.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
@@ -178,6 +179,8 @@
         '.recent_posts_category' ]
 
     , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
+
+    , "testosterone": [ '#pageHeaderWrapper', '#sidebar1Wrapper' ]
 
     , "villagevoice":
         [ '.leaderboard', '.sitenav', '#blog_header', '#top_stories_container',
