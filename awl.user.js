@@ -8,7 +8,7 @@
 
 $.each(
   [ "splitsider", "The Poetry Section", "Hooped Up", "Overheated",
-    "The 90-Second Morning Blast", "SPONSORED POST" ], 
+    "The 90-Second Morning Blast", "SPONSORED POST", "Bears" ], 
   function (_, v) { $('a:contains("' + v + '")').parent().parent().remove() }
   )
 
