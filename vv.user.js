@@ -190,7 +190,8 @@
     , "xkcd": [ '#topContainer' ]
 
     , "washingtonmonthly": [ 
-        '#featured', '#sidebar', '#ads', '#sidebar-content' ]
+        '#featured', '#sidebar', '#ads', '#sidebar-content', '#header-ad',
+        '#header']
 
     , "washingtonpost": [ 
         '.ad-top', '.ads', '#blog-tag-search-subnav', '#header-v3' ]
