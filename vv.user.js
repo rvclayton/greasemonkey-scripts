@@ -38,6 +38,7 @@
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
+// @include     http://sugarcut.com/*
 // @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include     http://www.testosteronepit.com/*
@@ -166,6 +167,10 @@
     , "scheme": [ '.sidebar' ]
 
     , "sciencebasedmedicine": [ '#sidebar1', '#sidebar2' ]
+
+    , "sugarcut": [ 
+        '#head', '.breadcrumbs', '.title', '.author', '#stats', 
+        '.pin-it-btn-wrapper', '.member' ]
 
     , "smbc": [ 'table:eq(1) td:first' ]
 
