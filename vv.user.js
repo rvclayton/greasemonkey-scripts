@@ -12,6 +12,7 @@
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
+// @include	http://doonesbury.slate.com/*
 // @include	http://eatmorebikes.blogspot.com/*
 // @include	http://eroticaleedaily.blogspot.com/*
 // @include	http://www.esquire.com/*
@@ -39,7 +40,6 @@
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
 // @include     http://sugarcut.com/*
-// @include     http://www.smbc-comics.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include     http://www.testosteronepit.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -88,6 +88,8 @@
     , "delong": [ '#banner', '#nav', '#footer', '#beta', '#gamma' ]
 
     , "diesels": [ '.scoop', 'body div table:first' ]
+
+    , "doonesbury": [ '#header' ]
 
     , "eatmorebikes": [ '.cap-top' ]
 
