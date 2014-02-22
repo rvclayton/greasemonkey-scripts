@@ -42,6 +42,7 @@
 // @include     http://sugarcut.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include     http://www.testosteronepit.com/*
+// @include	http://www.vanityfair.com/*
 // @include	HTTP://blogs.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
@@ -189,6 +190,9 @@
     , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
 
     , "testosterone": [ '#pageHeaderWrapper', '#sidebar1Wrapper' ]
+
+    , "vanityfair":
+        [ '.cn_page_header', '#top-rail' ]
 
     , "villagevoice":
         [ '.leaderboard', '.sitenav', '#blog_header', '#top_stories_container',
