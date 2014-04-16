@@ -129,7 +129,9 @@
         '#bannerarea', '.wideticker', '#toolbar', '#id_storytools_top',
         '#d-e_col2b' ]
 
-    , "lawyersgunsmoneyblog": [ '.addthis_toolbox', '.addthis_default_style' ]
+    , "lawyersgunsmoneyblog": [ 
+         '.addthis_toolbox', '.addthis_default_style', '#topnav', '#header',
+         '#catnav' ]
 
     , "lazybookreviews": [ '#header' ]
 
