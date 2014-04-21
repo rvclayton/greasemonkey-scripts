@@ -36,6 +36,7 @@
 // @include     http://prospect.org/blog/*
 // @include     http://www.ramblinwreck.com/*
 // @include     HTTP://www.reddit.com/r/*
+// @include     http://richkidsofinstagram.tumblr.com/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
@@ -164,6 +165,8 @@
     , "planet.haskell": [ '.sidebar' ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
+
+    , "richkidsofinstagram": [ '.navnav', '#top-ad', '#sidebar', '.meta', '.bar', '#MarketGidScriptRootN5215' ]
 
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
