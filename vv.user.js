@@ -132,7 +132,7 @@
 
     , "lawyersgunsmoneyblog": [ 
          '.addthis_toolbox', '.addthis_default_style', '#topnav', '#header',
-         '#catnav' ]
+         '#catnav', '.sociable' ]
 
     , "lazybookreviews": [ '#header' ]
 
