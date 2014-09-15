@@ -222,7 +222,9 @@
         '#post-supplement', '.headline_meta', '#footer', '#sharethis_0',
         '#idc-container-parent', '#view_counter', '#topLeaderboard', 
         '.OUTBRAIN', '#IDCommentPopup', '#IDCommentsHead', '#idc-cover',
-        '#idc-container-parent' ]
+        '#idc-container-parent', '.header-author', '.entry-share',
+        '.entry-date', '.updated', '.headerDateFix', '.pw', '#ctx-module',
+        '.entry-meta', '.pw-widget', '.ndn_embed' ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
