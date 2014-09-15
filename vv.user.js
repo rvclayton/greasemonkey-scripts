@@ -3,6 +3,7 @@
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
 // @description Match hosts and delete elements with particular ids or classes.
 // @include     HTTP://arstechnica.com/*
+// @include     http://awfulannouncing.com/*
 // @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
 // @include     http://buttersafe.com/*
@@ -69,6 +70,10 @@
     , "arstech": [ 
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
         'header', 'nav' ]
+
+    , "awfulannouncing": 
+        [ '#network-drawer', '#masthead', '.sticky-featured', '#primary-menu',
+          '.in-post-content' ]
 
     , "theawl": 
         [ '.comment-meta', '#header', '#ad1', '#sidebar', '.social-media',
