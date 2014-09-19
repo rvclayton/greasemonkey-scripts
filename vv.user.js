@@ -20,6 +20,7 @@
 // @include	http://www.ezrapoundcake.com/*
 // @include     HTTP://*firedoglake.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
+// @include	http://freethoughtblogs.com/*
 // @include	http://www.gocomics.com/*
 // @include	http://www.google.com/*
 // @include	http://gramponante.com/*
@@ -114,6 +115,8 @@
         '#wp-admin-bar' ]
 
     , "firstthings": [ '#siteHeading', '#masterNav' ]
+
+    , "freethoughtblogs": [ '.site-container' ]
 
     , "gocom": [ '#header' ]
 
