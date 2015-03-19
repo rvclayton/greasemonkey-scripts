@@ -57,6 +57,7 @@
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youtube.com/*
 // @include     http://yinwang0.wordpress.com/*
+// @include     http://www.zerohedge.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
@@ -105,8 +106,9 @@
         '#navbar', '.body-fauxcolumns', '.content-cap-top', '.cap-top' ]
 
     , "esquire": [ 
-        '#ad_banner', '#blog_header_gen', '.article_nav', '#blog_branding',
-        '#CNTR_blog_search', '#trending_links' ]
+        '#ad_banner', '.header-content', '.article_nav', '#blog_branding',
+        '#CNTR_blog_search', '#trending_links', '.ad-gpt-main',
+        '.ad-gpt-vertical', '.ad-gpt-sharethrough' ]
 
     , "ezrapoundcake": [ '.header', '.nav' ]
 
@@ -227,7 +229,7 @@
         '.OUTBRAIN', '#IDCommentPopup', '#IDCommentsHead', '#idc-cover',
         '#idc-container-parent', '.header-author', '.entry-share',
         '.entry-date', '.updated', '.headerDateFix', '.pw', '#ctx-module',
-        '.entry-meta', '.pw-widget', '.ndn_embed' ]
+        '.entry-meta', '.pw-widget', '.ndn_embed', '.insert-post-ads'  ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
@@ -236,6 +238,8 @@
     , "yinwang0": [ '#masthead', '#secondary' ]
 
     , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
+
+    , "zerohedge": [ '#header', '#sidebar-left', '#sidebar-right' ]
     }
 	
   for (var key in ids)
