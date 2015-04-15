@@ -167,7 +167,8 @@
 
     , "reddit": [ 
         'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain'
+        '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain',
+        '#siteTable_organic'
         ]
 
     , "planetscala": [ '.sidebar' ]
