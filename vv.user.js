@@ -9,7 +9,6 @@
 // @include     http://betterbooktitles.com/*
 // @include     http://www.boomantribune.com/*
 // @include     http://buttersafe.com/*
-// @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
 // @include	http://danadearmond.tumblr.com/*
 // @include     http://delong.typepad.com/*
@@ -19,17 +18,12 @@
 // @include	http://eatmorebikes.blogspot.com/*
 // @include	http://eroticaleedaily.blogspot.com/*
 // @include	http://www.esquire.com/*
-// @include	http://www.ezrapoundcake.com/*
-// @include     HTTP://*firedoglake.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
 // @include	http://freethoughtblogs.com/*
 // @include	http://www.gocomics.com/*
 // @include	http://www.google.com/*
 // @include	http://gramponante.com/*
-// @include	http://infoworld.com/*
-// @include	http://www.javaworld.com/*
 // @include	http://www.lawyersgunsmoneyblog.com/*
-// @include	http://lazybookreviews.tumblr.com/*
 // @include	http://www.lunchstudio.com/*
 // @include     HTTP://www.mailinator.com/*
 // @include     http://www.nakedcapitalism.com/*
@@ -40,13 +34,11 @@
 // @include     http://prospect.org/blog/*
 // @include     http://www.ramblinwreck.com/*
 // @include     HTTP://www.reddit.com/r/*
-// @include     http://richkidsofinstagram.tumblr.com/*
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
 // @include     http://sugarcut.com/*
 // @include     http://www.sylvanmigdal.com/*
-// @include     http://www.testosteronepit.com/*
 // @include	http://www.vanityfair.com/*
 // @include	HTTP://blogs.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
@@ -69,7 +61,7 @@
   // all elements matching the selectors are removed().
 
   var ids = {
-      "3quarksdaily": [ '.posted' ]
+      "3quarksdaily": [ '.posted',  '#sidebar-left' ]
 
     , "arstech": [ 
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
@@ -114,12 +106,6 @@
         '#CNTR_blog_search', '#trending_links', '.ad-gpt-main',
         '.ad-gpt-vertical', '.ad-gpt-sharethrough' ]
 
-    , "ezrapoundcake": [ '.header', '.nav' ]
-
-    , "firedoglake": [ 
-        '.header', '.rightColWrapper', '#topNavLinks' , '.clearing',
-        '#wp-admin-bar' ]
-
     , "firstthings": [ '#siteHeading', '#masterNav' ]
 
     , "freethoughtblogs": [ '.site-container' ]
@@ -133,22 +119,9 @@
         '#sb-container', '.tweetthis', '#subscribe', '#author-info',
         '.post-meta', '#sb2', '#copyright', '#footer-container', '#respond' ]
 
-    , "infoworld": [ 
-        '#block-infoworld-infoworld_header_domains', '#ad_ticker', '#rightcol',
-        '#block-infoworld_nav-navigation_domain', '#breadcrumbs', 
-        '#block-block-20', '#block-block-21', '#sponsored1', '#sponsored2',
-        '.addResources', '.relatedContent', '#block-idg_twitter-idg_twitter',
-        '#edit-promo' ]
-
-    , "javaworld": [ 
-        '#bannerarea', '.wideticker', '#toolbar', '#id_storytools_top',
-        '#d-e_col2b' ]
-
     , "lawyersgunsmoneyblog": [ 
          '.addthis_toolbox', '.addthis_default_style', '#topnav', '#header',
          '#catnav', '.sociable' ]
-
-    , "lazybookreviews": [ '#header' ]
 
     , "lunchstudio": [ 
         '#left-sidebar-wrapper', '#header-wrapper', '.post-footer' ]
@@ -181,8 +154,6 @@
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
-    , "richkidsofinstagram": [ '.navnav', '#top-ad', '#sidebar', '.meta', '.bar', '#MarketGidScriptRootN5215' ]
-
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
         '#sidebar' ]
@@ -208,8 +179,6 @@
         '.recent_posts_category' ]
 
     , "urvy": [ '#theLeaderboard', '#theArt_curvy' ]
-
-    , "testosterone": [ '#pageHeaderWrapper', '#sidebar1Wrapper' ]
 
     , "vanityfair":
         [ '.cn_page_header', '#top-rail' ]
