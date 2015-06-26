@@ -2,6 +2,7 @@
 // @name	vv
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
 // @description Match hosts and delete elements with particular ids or classes.
+// @include     http://www.3quarksdaily.com/*
 // @include     HTTP://arstechnica.com/*
 // @include     http://awfulannouncing.com/*
 // @include     HTTP://www.theawl.com/*
@@ -68,7 +69,7 @@
   // all elements matching the selectors are removed().
 
   var ids = {
-      "answers.com": [ '#left-column', '#header', '#headerSection2' ]
+      "3quarksdaily": [ '.posted' ]
 
     , "arstech": [ 
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
