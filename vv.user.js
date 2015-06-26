@@ -6,6 +6,7 @@
 // @include     http://awfulannouncing.com/*
 // @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
+// @include     http://www.boomantribune.com/*
 // @include     http://buttersafe.com/*
 // @include     HTTP://comics.com/pearls_before_swine/*
 // @include     HTTP://c.urvy.org/*
@@ -83,6 +84,8 @@
           '#comment-sort', '.tags', '#comments', '.network-header' ]
 
     , "betterbooktitles": [ 'table.container td:first' ]
+
+    , "booman": [ '.sharing' ]
 
     , "buttersafe": [ '#logoheader2', '#menubar' ]
 
