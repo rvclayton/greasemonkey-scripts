@@ -32,6 +32,7 @@
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
+// @include     http://questionablecontent.net/*
 // @include     http://www.ramblinwreck.com/*
 // @include     HTTP://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
@@ -44,14 +45,13 @@
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
 // @include     http://2paragraphs.com/*
-// @include     http://www.xkcd.com/*
+// @include     http://xkcd.com/*
 // @include     http://www.washingtonmonthly.com/*
 // @include     http://www.washingtonpost.com/*
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youtube.com/*
 // @include     http://yinwang0.wordpress.com/*
-// @include     http://www.zerohedge.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
@@ -154,6 +154,8 @@
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
+    , "questionablecontent": [ '#patreon', '#header' ]
+
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
         '#sidebar' ]
@@ -212,8 +214,6 @@
     , "yinwang0": [ '#masthead', '#secondary' ]
 
     , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
-
-    , "zerohedge": [ '#header', '#sidebar-left', '#sidebar-right' ]
     }
 	
   for (var key in ids)
