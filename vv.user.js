@@ -20,6 +20,7 @@
 // @include	http://www.esquire.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
 // @include	http://freethoughtblogs.com/*
+// @include	http://www.ginandtacos.com/*
 // @include	http://www.gocomics.com/*
 // @include	http://www.google.com/*
 // @include	http://gramponante.com/*
@@ -109,6 +110,8 @@
     , "firstthings": [ '#siteHeading', '#masterNav' ]
 
     , "freethoughtblogs": [ '.site-container' ]
+
+    , "ginandtacos": [ '.sociable', '.postmetadata' ]
 
     , "gocom": [ '#header' ]
 
