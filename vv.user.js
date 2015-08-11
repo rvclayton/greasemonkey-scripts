@@ -30,6 +30,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     http://theness.com/neurologicablog/*
 // @include     HTTP://*blogs.nytimes.com/*
+// @include     http://pinboard.in/recent/
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
@@ -39,7 +40,6 @@
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
-// @include     http://sugarcut.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	http://www.vanityfair.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -150,6 +150,8 @@
         '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain',
         '#siteTable_organic'
         ]
+
+    , "pinboard": [ '.description', '.source' ]
 
     , "planetscala": [ '.sidebar' ]
 
