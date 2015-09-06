@@ -15,9 +15,7 @@
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
-// @include	http://doonesbury.slate.com/*
-// @include	http://eatmorebikes.blogspot.com/*
-// @include	http://eroticaleedaily.blogspot.com/*
+// @include	http://www.economicprincipals.com/*
 // @include	http://www.esquire.com/*
 // @include     http://www.firstthings.com/blogs/drboli/*
 // @include	http://freethoughtblogs.com/*
@@ -100,12 +98,7 @@
 
     , "diesels": [ '.scoop', 'body div table:first' ]
 
-    , "doonesbury": [ '#header' ]
-
-    , "eatmorebikes": [ '.cap-top' ]
-
-    , "eroticalee": [ 
-        '#navbar', '.body-fauxcolumns', '.content-cap-top', '.cap-top' ]
+    , "economicprincipals": [ '#sidebar', '#header' ]
 
     , "esquire": [ 
         '#ad_banner', '.header-content', '.article_nav', '#blog_branding',
