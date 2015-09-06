@@ -9,6 +9,7 @@
 // @include     http://betterbooktitles.com/*
 // @include     http://www.boomantribune.com/*
 // @include     http://buttersafe.com/*
+// @include     http://charleshughsmith.blogspot.com/*
 // @include     HTTP://c.urvy.org/*
 // @include	http://danadearmond.tumblr.com/*
 // @include     http://delong.typepad.com/*
@@ -30,7 +31,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     http://theness.com/neurologicablog/*
 // @include     HTTP://*blogs.nytimes.com/*
-// @include     http://pinboard.in/recent/
+// @include     http://pinboard.in/recent/*
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
@@ -40,6 +41,7 @@
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
+// @include     http://smittenkitchen.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	http://www.vanityfair.com/*
 // @include	HTTP://blogs.villagevoice.com/*
@@ -82,6 +84,9 @@
     , "booman": [ '.sharing' ]
 
     , "buttersafe": [ '#logoheader2', '#menubar' ]
+
+    , "charleshughsmith": [ '#side-wrapper1', '#middleads-wrapper',
+	'#linkbar-wrapper', '#header-wrapper' ]
 
     , "comics": [ 
         '.Header', '.SRCH_AdvancedOptions', '.SRCH_Options', '.SRCH_Logo',
@@ -146,7 +151,7 @@
         ]
 
     , "reddit": [ 
-        'div.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
+        '.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
         '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain',
         '#siteTable_organic'
         ]
@@ -169,11 +174,9 @@
 
     , "sciencebasedmedicine": [ '#sidebar1', '#sidebar2' ]
 
-    , "sugarcut": [ 
-        '#head', '.breadcrumbs', '.title', '.author', '#stats', 
-        '.pin-it-btn-wrapper', '.member' ]
-
     , "smbc": [ 'table:eq(1) td:first' ]
+
+    , "smittenkitchen": [ '#sidebar', ['body', 'width'] ]
 
     , "sylvanmigdal": [ '#theLeaderboard', '#thePWBannerAd' ]
 
@@ -223,7 +226,14 @@
 	
   for (var key in ids)
     if (location.host.indexOf(key) > -1) {
-      $.each(ids[key], function(_, v) { $(v).remove(); });
+      $.each(ids[key], function(_, v) {
+	if (Array.isArray(v)) {
+	  alert('v[1] = "' + v[1] + '"');
+	  $(v[0]).removeAttr(v[1])
+	  }
+	else
+  	  $(v).remove();
+        });
       return
       }
 	
