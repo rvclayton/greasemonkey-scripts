@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name	vv
-// @namespace	file:///home/rclayton/projects/greasemonkey/scripts
+// @namespace	file:///mnt/projects/greasemonkey-scripts/
 // @description Match hosts and delete elements with particular ids or classes.
 // @include     http://www.3quarksdaily.com/*
 // @include     HTTP://arstechnica.com/*
 // @include     http://awfulannouncing.com/*
-// @include     HTTP://www.theawl.com/*
 // @include     http://betterbooktitles.com/*
 // @include     http://www.boomantribune.com/*
 // @include     http://buttersafe.com/*
 // @include     http://charleshughsmith.blogspot.com/*
 // @include     HTTP://c.urvy.org/*
-// @include	http://danadearmond.tumblr.com/*
 // @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
@@ -42,7 +40,6 @@
 // @include     http://smittenkitchen.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	http://www.vanityfair.com/*
-// @include	HTTP://blogs.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
 // @include     http://2paragraphs.com/*
@@ -52,7 +49,6 @@
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
 // @include     http://www.youtube.com/*
-// @include     http://yinwang0.wordpress.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
@@ -72,11 +68,6 @@
         [ '#network-drawer', '#masthead', '.sticky-featured', '#primary-menu',
           '.in-post-content' ]
 
-    , "theawl": 
-        [ '.comment-meta', '#header', '#ad1', '#sidebar', '.social-media',
-          '.facebook-recommend', '#ad4', 'h3.date', '.outbrain-related',
-          '#comment-sort', '.tags', '#comments', '.network-header' ]
-
     , "betterbooktitles": [ 'table.container td:first' ]
 
     , "booman": [ '.sharing' ]
@@ -91,8 +82,6 @@
         '.STR_Date', '.ui_datepicker-trigger' ]
 
     , "discoverm": [ '#mainBanner', '#header' ]
-
-    , "danadearmond": [ '#sidebar' ]
 
     , "delong": [ '#banner', '#nav', '#footer', '#beta', '#gamma' ]
 
@@ -186,10 +175,6 @@
     , "vanityfair":
         [ '.cn_page_header', '#top-rail' ]
 
-    , "villagevoice":
-        [ '.leaderboard', '.sitenav', '#blog_header', '#top_stories_container',
-          'iframe' ]
-
     , "xkcd": [ '#topContainer' ]
 
     , "washingtonmonthly": [ 
@@ -211,8 +196,6 @@
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
         '#menu_container', '.ad-misc' ]
-
-    , "yinwang0": [ '#masthead', '#secondary' ]
 
     , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
     }
