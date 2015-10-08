@@ -27,7 +27,7 @@
 // @include     http://www.nakedcapitalism.com/*
 // @include     http://theness.com/neurologicablog/*
 // @include     HTTP://*blogs.nytimes.com/*
-// @include     http://pinboard.in/recent/*
+// @include     https://pinboard.in/recent/*
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
