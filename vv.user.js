@@ -32,6 +32,7 @@
 // @include     http://planet.haskell.org/*
 // @include     http://prospect.org/blog/*
 // @include     http://questionablecontent.net/*
+// @include	http://www.qwantz.com/*
 // @include     http://www.ramblinwreck.com/*
 // @include     https://www.reddit.com/r/*
 // @include     http://www.ritholtz.com/*
@@ -100,7 +101,7 @@
 
     , "ginandtacos": [ '.sociable', '.postmetadata' ]
 
-    , "gocom": [ '#header' ]
+    , "gocom": [ '#header', '.ad' ]
 
     , "google": [ '#gb', '#tads' ]
 
@@ -147,6 +148,8 @@
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
     , "questionablecontent": [ '#patreon', '#header' ]
+
+    , "qwantz": [ '#header' ]
 
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
