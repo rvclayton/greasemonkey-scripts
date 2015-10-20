@@ -41,6 +41,7 @@
 // @include     http://smittenkitchen.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	http://www.vanityfair.com/*
+// @include	http://www.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
 // @include     http://tinypic.com/*
 // @include     http://2paragraphs.com/*
@@ -177,6 +178,8 @@
 
     , "vanityfair":
         [ '.cn_page_header', '#top-rail' ]
+
+    , "villagevoice": [ '.ads', '.sde-shadow', '.rail-container' ]
 
     , "xkcd": [ '#topContainer' ]
 
