@@ -4,13 +4,11 @@
 // @description Match hosts and delete elements with particular ids or classes.
 // @include     http://www.3quarksdaily.com/*
 // @include     HTTP://arstechnica.com/*
-// @include     http://awfulannouncing.com/*
 // @include     http://betterbooktitles.com/*
 // @include     http://www.boomantribune.com/*
 // @include     http://buttersafe.com/*
 // @include     http://charleshughsmith.blogspot.com/*
 // @include     HTTP://c.urvy.org/*
-// @include     http://delong.typepad.com/*
 // @include     http://blogs.discovermagazine.com/*
 // @include	http://www.dieselsweeties.com/*
 // @include	http://www.economicprincipals.com/*
@@ -26,6 +24,7 @@
 // @include     HTTP://www.mailinator.com/*
 // @include     http://www.nakedcapitalism.com/*
 // @include     http://theness.com/neurologicablog/*
+// @include     http://nonadventures.com/*
 // @include     HTTP://*blogs.nytimes.com/*
 // @include     https://pinboard.in/recent/*
 // @include     http://www.planetscala.com/*
@@ -38,6 +37,7 @@
 // @include     http://www.ritholtz.com/*
 // @include     http://www.scheme.dk/planet/*
 // @include     http://www.sciencebasedmedicine.org/index.php/*
+// @include     http://www.smbc-comics.com/*
 // @include     http://smittenkitchen.com/*
 // @include     http://www.sylvanmigdal.com/*
 // @include	http://www.vanityfair.com/*
@@ -66,10 +66,6 @@
         'div.microsoft', 'div.gaming', '#links-bar', '#read-more-stories',
         'header', 'nav' ]
 
-    , "awfulannouncing": 
-        [ '#network-drawer', '#masthead', '.sticky-featured', '#primary-menu',
-          '.in-post-content' ]
-
     , "betterbooktitles": [ 'table.container td:first' ]
 
     , "booman": [ '.sharing' ]
@@ -84,8 +80,6 @@
         '.STR_Date', '.ui_datepicker-trigger' ]
 
     , "discoverm": [ '#mainBanner', '#header' ]
-
-    , "delong": [ '#banner', '#nav', '#footer', '#beta', '#gamma' ]
 
     , "diesels": [ '.scoop', 'body div table:first' ]
 
@@ -125,6 +119,8 @@
 
     , "theness": [ '#header', '#sidebar1', '#sidebar2' ]
 
+    , "nonadventures": [ '#header' ]
+
     , "nytimes": [ '#login', '#masthead', '#navigation', '#TopAd' ]
 
     , "ramblinwreck": [ '#cdown-main', '#sticky-footer', '#sticky-header',
@@ -148,7 +144,7 @@
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
-    , "questionablecontent": [ '#patreon', '#header' ]
+    , "questionablecontent": [ '#topline' ]
 
     , "qwantz": [ '#header' ]
 
@@ -160,7 +156,7 @@
 
     , "sciencebasedmedicine": [ '#sidebar1', '#sidebar2' ]
 
-    , "smbc": [ 'table:eq(1) td:first' ]
+    , "smbc": [ '#header' ]
 
     , "smittenkitchen": [ '#sidebar', ['body', 'width'] ]
 
