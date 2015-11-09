@@ -146,7 +146,7 @@
 
     , "questionablecontent": [ '#topline' ]
 
-    , "qwantz": [ '#header' ]
+    , "qwantz": [ '#header', '.headertext' ]
 
     , "ritholtz": [ 
         '#header', '.post_sub_header', '.post_meta_stuff', '.post_share_stuff',
