@@ -187,13 +187,14 @@
         '.ad-top', '.ads', '#blog-tag-search-subnav', '#header-v3' ]
 
     , "wonkette": [ 
-        '#topmenuContainer', '#header', '#idc-noscript' , '#sidebars',
+        '#topmenuContainer', '.td-header-container', '#idc-noscript' , '#sidebars',
         '#post-supplement', '.headline_meta', '#footer', '#sharethis_0',
         '#idc-container-parent', '#view_counter', '#topLeaderboard', 
         '.OUTBRAIN', '#IDCommentPopup', '#IDCommentsHead', '#idc-cover',
         '#idc-container-parent', '.header-author', '.entry-share',
         '.entry-date', '.updated', '.headerDateFix', '.pw', '#ctx-module',
-        '.entry-meta', '.pw-widget', '.ndn_embed', '.insert-post-ads'  ]
+        '.entry-meta', '.pw-widget', '.ndn_embed', '.insert-post-ads',
+        '.td-post-source-tags' ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
