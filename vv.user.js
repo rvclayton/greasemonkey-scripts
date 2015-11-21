@@ -40,6 +40,7 @@
 // @include     http://www.smbc-comics.com/*
 // @include     http://smittenkitchen.com/*
 // @include     http://www.sylvanmigdal.com/*
+// @include     http://tacchans.blog.jp/*
 // @include	http://www.vanityfair.com/*
 // @include	http://www.villagevoice.com/*
 // @include	HTTP://thisisnthappiness.com/*
@@ -161,6 +162,10 @@
     , "smittenkitchen": [ '#sidebar', ['body', 'width'] ]
 
     , "sylvanmigdal": [ '#theLeaderboard', '#thePWBannerAd' ]
+
+    , "tacchans": [
+        '#blog-header', '.ldb_menu-wrapper', '.message-board-outer'
+        ]
 
     , "thisisnthappiness": [  ]
 
