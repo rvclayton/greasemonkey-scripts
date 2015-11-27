@@ -198,8 +198,8 @@
         '.OUTBRAIN', '#IDCommentPopup', '#IDCommentsHead', '#idc-cover',
         '#idc-container-parent', '.header-author', '.entry-share',
         '.entry-date', '.updated', '.headerDateFix', '.pw', '#ctx-module',
-        '.entry-meta', '.pw-widget', '.ndn_embed', '.insert-post-ads',
-        '.td-post-source-tags' ]
+        '.entry-meta', '.pw-widget', '.td-tags', '.insert-post-ads',
+        '.td-a-rec' ]
 
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
