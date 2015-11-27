@@ -2,7 +2,7 @@
 // @name	Bigger anchor text.
 // @namespace	file:///home/rclayton/projects/greasemonkey/scripts
 // @description Make the anchor text on the next-picture link larger.
-// @include	http://www.dnalounge.com/gallery/*
+// @include	https://www.dnalounge.com/gallery/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
