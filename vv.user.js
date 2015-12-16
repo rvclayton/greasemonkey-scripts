@@ -132,8 +132,8 @@
         ]
 
     , "reddit": [ 
-        '.side', 'div#header', 'p.tagline', '.infobar', '.flat-list',
-        '.rank', '.midcol', '#siteTable_promoted', '.expando-button', '.domain',
+        '.side', 'div#header', 'p.tagline', '.infobar', '.flat-list', '.rank',
+        '.midcol', '#siteTable_promoted', '.expando-button', '.domain',
         '#siteTable_organic'
         ]
 
@@ -180,7 +180,9 @@
     , "vanityfair":
         [ '.cn_page_header', '#top-rail' ]
 
-    , "villagevoice": [ '.ads', '.sde-shadow', '.rail-container' ]
+    , "villagevoice": [
+        '.ads', '.sde-shadow', '.rail-container', '.rel-stories'
+        ]
 
     , "xkcd": [ '#topContainer' ]
 
