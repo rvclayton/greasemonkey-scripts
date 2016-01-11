@@ -29,6 +29,7 @@
 // @include     https://pinboard.in/recent/*
 // @include     http://www.planetscala.com/*
 // @include     http://planet.haskell.org/*
+// @include     http://poorlydrawnlines.com/comic/*
 // @include     http://prospect.org/blog/*
 // @include     http://questionablecontent.net/*
 // @include	http://www.qwantz.com/*
@@ -142,6 +143,8 @@
     , "planetscala": [ '.sidebar' ]
 
     , "planet.haskell": [ '.sidebar' ]
+
+    , "poorlydrawnlines": [ '.logo' ]
 
     , "prospect": [ '#ad-top', '#navigation', '#content-header' ]
 
