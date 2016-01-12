@@ -52,6 +52,7 @@
 // @include     http://www.washingtonpost.com/*
 // @include     http://wonkette.com/*
 // @include     http://www.wwtdd.com/*
+// @include     https://news.ycombinator.com/*
 // @include     http://www.youtube.com/*
 // @require     HTTP://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
@@ -209,6 +210,8 @@
     , "wwtdd": [ 
         '#header', '.ad-homepage', '.post_insert', '.postmetadata',
         '#menu_container', '.ad-misc' ]
+
+    , "ycombinator": [ '.pagetop' ]
 
     , "youtube": [ '.promoted-videos', '.pyv-promoted-videos' ]
     }
