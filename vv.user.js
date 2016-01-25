@@ -16,7 +16,7 @@
 // @include     http://www.firstthings.com/blogs/drboli/*
 // @include	http://freethoughtblogs.com/*
 // @include	http://www.ginandtacos.com/*
-// @include	http://www.gocomics.com/*
+// @include	http://www.gocomics.com/culdesac/*
 // @include	http://www.google.com/*
 // @include	http://gramponante.com/*
 // @include	http://www.lawyersgunsmoneyblog.com/*
@@ -99,7 +99,7 @@
 
     , "ginandtacos": [ '.sociable', '.postmetadata' ]
 
-    , "gocom": [ '#header', '.ad' ]
+    , "gocomics": [ '#header', '.ad', '.amu-ad', '.ad-leaderboard', '.banner' ]
 
     , "google": [ '#gb', '#tads' ]
 
